@@ -12,11 +12,11 @@ body{
     width: 90%;
     /* move box to center */
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .nav{
-   background-color: aliceblue;
+   background-color: brown;
    text-align: center;
 }
 .nav ul {
@@ -29,13 +29,12 @@ body{
 }
 .nav ul li a {
     text-decoration: none;
-    color: brown;
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
 /* style banner */
 .banner{
-    background-color: aqua;
     height: 400px;
     background-image: url(./images/banner.jpg);
     background-position: center;
@@ -80,19 +79,92 @@ iframe{
     size: 500px;
 }
 .abtme{
+    text-align: center;
     margin: 0 auto;
     width: 50%;
     height: 300px;
     background-color: antiquewhite;
     border: 4px solid brown;
-    border-radius: 30px ;
+    border-radius: 30px  ;
     margin-bottom: 40px;
+    padding: 10px;
 
 }
 .footer{
     background-color:crimson;
+    text-align: center;
     
 }
 .medea{
     background-color: darkslategray;
+}
+.warning{
+    padding-top: 300px;
+}
+.main{
+    background-color: lightslategray;
+    height: 1500px;
+
+}
+.popular{
+
+}
+
+
+.sectiontitle {
+    color: brown;
+    text-align: center;
+    border-right: 5px double brown;
+    border-left: 5px double brown;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.pop-province{
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.gallery img {
+    width: 200px;
+    height: 125px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0,0,3px, darkblue;
+}
+.gallery{
+    text-align: center;
+}
+.recommend{
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.food-card{
+    width: 250px;
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 20px;
+    display: inline-block;
+    
+}
+.food-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+.food-card h3{
+    text-align: center;
+}
+.food-card p {
+    margin: 5px;
 }
