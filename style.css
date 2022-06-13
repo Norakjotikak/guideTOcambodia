@@ -103,7 +103,7 @@ iframe{
 }
 .main{
     background-color: lightslategray;
-    height: 1500px;
+    height: 100%;
 
 }
 
@@ -165,4 +165,25 @@ iframe{
 }
 .food-card p {
     margin: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th,tr{
+    border: 2px solid white;
+}
+.col1{
+    width: 60%;
+}
+.col2{
+    width: 20%;
+    
+}
+.col3{
+    width: 20%;}
+
+table tr td img{
+    width: 100%;
 }
