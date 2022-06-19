@@ -12,7 +12,7 @@ body{
     width: 90%;
     /* move box to center */
     margin: 0 auto;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .nav{
@@ -128,6 +128,9 @@ iframe{
     width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+.pop-province ul li {
+    list-style: none;
 }
 .gallery img {
     width: 200px;
